@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     //myWebView = findViewById(R.id.webview);
     myWebView = new WebView(this);
-    myWebView.loadUrl("https://www.facebook.com");
+    myWebView.loadUrl("https://m.facebook.com");
     myWebView.setWebViewClient(new WebViewClient() {
       @Override
       public boolean shouldOverrideUrlLoading(WebView view, String url) {
